@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9FBF9"
+    tools:context=".Ruta11">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/logoTeo"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="#00FFFFFF"
+            android:backgroundTint="#00FFFFFF"
+            android:contentDescription="logoConcello"
+            android:scaleType="fitXY"
+            app:srcCompat="@mipmap/logo" />
+
+        <ImageButton
+            android:id="@+id/menu"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="205dp"
+            android:layout_marginTop="20dp"
+            android:background="#00FFFFFF"
+            android:backgroundTint="#00FFFFFF"
+            android:contentDescription="menu hamburguesa"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/hamburguesa"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+
+    <ScrollView
+            android:id="@+id/scrollView2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/logoRedeRutas"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="120dp"
+                    android:backgroundTint="#00FFFFFF"
+                    android:contentDescription="logo rede de rutas"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/logorutas" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/numero"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="12dp"
+                        android:fontFamily="sans-serif-black"
+                        android:text="11"
+                        android:textColor="#402D652F"
+                        android:textSize="70sp" />
+
+                    <TextView
+                        android:id="@+id/titulo1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="-15dp"
+                        android:text="Ruta Camiño de Santiago Portugués (tramo teense)"
+                        android:textColor="#415419"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="362dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:foregroundTint="#2DFFFFFF"
+                    app:srcCompat="@mipmap/lineaverder" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="260dp"
+            android:layout_height="350dp"
+            android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/duracion1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="25dp"
+                    android:text="Distancia"
+                    android:textColor="#8A8585"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/km1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:text="-"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/desnivel1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Desnivel"
+                    android:textColor="#8A8585"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/desnivel1.1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:text="-"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/circular1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Ruta Circular"
+                    android:textColor="#8A8585"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/circular1.1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:text="Non"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/dificultad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Dificultad"
+                    android:textColor="#8A8585"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/baixa1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:text="-"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/sinalizacion1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Sinalización"
+                    android:textColor="#8A8585"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/sinalizacion1.1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:text="-"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/inicioDeLaRuta"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Inicio de la ruta"
+                    android:textColor="#8A8585"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/coordenadas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:text="Coordenadas GPS:"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/coordenadas1.1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:text="42.814019188168764, -8.62254239437164"
+                    android:textColor="#000000" />
+
+        </LinearLayout>
+
+            <ImageView
+                android:id="@+id/escalador"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="245dp"
+                android:layout_marginLeft="05dp"
+                android:contentDescription="escalador"
+                app:tint="#1F000000"
+                app:srcCompat="@mipmap/escalador" />
+
+        </LinearLayout>
+
+                <Button
+                    android:id="@+id/wikiloc"
+                    android:layout_width="130dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="230dp"
+                    android:backgroundTint="#F9FBF9"
+                    android:text="Ruta en Wikiloc"
+                    android:textColor="#415419"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/foto1"
+                    android:layout_width="350dp"
+                    android:layout_height="250dp"
+                    android:layout_marginLeft="3dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@mipmap/imagen11" />
+                <TextView
+                    android:id="@+id/texto1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="25dp"
+                    android:layout_marginTop="25dp"
+                    android:text="Trátase dun percorrido de case 8 km onde o Itinerario Cultural Xacobeo atravesa o noso concello.
+                \n \nDe entre as vías de peregrinación xacobeas tradicionais a Compostela unha das máis afamadas é o coñecido como Camiño de Santiago Portugués, con inicio en Lisboa, aínda que na actualidade os principais portos de partida son Porto e Tui.
+                \n \nXa case no último tramo, o percorrido entra no concello en Francos, na parroquia de Calo e atravesa núcleos importantes como a rúa de Francos, Osebe, A Casalonga, A Pedreira… para saír do noso territorio polas Galanas, xa próximo ao veciño núcleo do Milladoiro. Ao inicio do percorrido está o albergue de peregrinos.
+                \n \nNeste traxecto atopamos elementos patrimoniais moi relevantes como lavadoiros, fontes e cruceiros, destacando o Cruceiro de Francos, o máis antigo do concello. Atravesa tamén a Carballeira de Francos, lugar onde se realiza cada 11 de novembro a Feira do San Martiño, de gran relevancia turística e cultural para a comarca.
+                \n \nA ruta atópase sinalizada e conta con sinais interpretativos."
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="362dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="70dp"
+                    android:foregroundTint="#2DFFFFFF"
+                    app:srcCompat="@mipmap/lineaverder" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+
+                    <ImageButton
+                        android:id="@+id/facebook"
+                        android:layout_width="53dp"
+                        android:layout_height="48dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:backgroundTint="#00B8AEAE"
+                        android:contentDescription="facebook"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@mipmap/facebook"
+                        app:tint="#7F000000" />
+
+                    <ImageButton
+                        android:id="@+id/twitter"
+                        android:layout_width="70dp"
+                        android:layout_height="48dp"
+                        android:layout_marginLeft="-20dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:backgroundTint="#00B8AEAE"
+                        android:contentDescription="twitter"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@mipmap/twitter"
+                        app:tint="#7F000000" />
+
+                    <ImageButton
+                        android:id="@+id/instagram"
+                        android:layout_width="55dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="-22dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:backgroundTint="#00B8AEAE"
+                        android:contentDescription="instagram"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@mipmap/instagram"
+                        app:tint="#7F000000" />
+
+                    <ImageButton
+                        android:id="@+id/wikiloc1"
+                        android:layout_width="55dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="-14dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:backgroundTint="#00B8AEAE"
+                        android:contentDescription="wikiloc"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@mipmap/wikilok"
+                        app:tint="#7F000000" />
+
+                    <ImageButton
+                        android:id="@+id/info"
+                        android:layout_width="55dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="125dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:backgroundTint="#00B8AEAE"
+                        android:contentDescription="información"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/logoinformacion"
+                        app:tint="#7F000000" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
