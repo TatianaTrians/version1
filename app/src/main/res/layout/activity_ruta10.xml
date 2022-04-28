@@ -22,7 +22,7 @@
             android:backgroundTint="#00FFFFFF"
             android:contentDescription="logoConcello"
             android:scaleType="fitXY"
-            app:srcCompat="@mipmap/logo" />
+            app:srcCompat="@drawable/logo" />
 
         <ImageButton
             android:id="@+id/menu"
@@ -243,11 +243,14 @@
                     android:id="@+id/wikiloc"
                     android:layout_width="130dp"
                     android:layout_height="48dp"
-                    android:layout_marginLeft="230dp"
+                    android:layout_marginLeft="220dp"
                     android:backgroundTint="#F9FBF9"
                     android:text="Ruta en Wikiloc"
                     android:textColor="#415419"
-                    android:textSize="12sp" />
+                    android:textSize="12sp"
+                    android:transformPivotX="@dimen/cardview_compat_inset_shadow"
+                    app:rippleColor="#415419"
+                    app:strokeColor="#415419"/>
 
                 <ImageView
                     android:id="@+id/foto1"
@@ -255,7 +258,7 @@
                     android:layout_height="250dp"
                     android:layout_marginLeft="3dp"
                     android:scaleType="fitXY"
-                    app:srcCompat="@mipmap/imagen10" />
+                    app:srcCompat="@mipmap/ruta10" />
                 <TextView
                     android:id="@+id/texto1"
                     android:layout_width="match_parent"
@@ -296,7 +299,7 @@
                         android:backgroundTint="#00B8AEAE"
                         android:contentDescription="facebook"
                         android:scaleType="fitXY"
-                        app:srcCompat="@mipmap/facebook"
+                        app:srcCompat="@drawable/facebook"
                         app:tint="#7F000000" />
 
                     <ImageButton
@@ -309,7 +312,7 @@
                         android:backgroundTint="#00B8AEAE"
                         android:contentDescription="twitter"
                         android:scaleType="fitXY"
-                        app:srcCompat="@mipmap/twitter"
+                        app:srcCompat="@drawable/twitter"
                         app:tint="#7F000000" />
 
                     <ImageButton
@@ -322,7 +325,7 @@
                         android:backgroundTint="#00B8AEAE"
                         android:contentDescription="instagram"
                         android:scaleType="fitXY"
-                        app:srcCompat="@mipmap/instagram"
+                        app:srcCompat="@drawable/instagram"
                         app:tint="#7F000000" />
 
                     <ImageButton
@@ -335,7 +338,7 @@
                         android:backgroundTint="#00B8AEAE"
                         android:contentDescription="wikiloc"
                         android:scaleType="fitXY"
-                        app:srcCompat="@mipmap/wikilok"
+                        app:srcCompat="@drawable/wikiloc"
                         app:tint="#7F000000" />
 
                     <ImageButton
@@ -348,7 +351,7 @@
                         android:backgroundTint="#00B8AEAE"
                         android:contentDescription="información"
                         android:scaleType="fitXY"
-                        app:srcCompat="@drawable/logoinformacion"
+                        app:srcCompat="@drawable/info"
                         app:tint="#7F000000" />
                 </LinearLayout>
             </LinearLayout>
