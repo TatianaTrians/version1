@@ -19,11 +19,31 @@ class Ruta8 : AppCompatActivity() {
         }
         val pieza1 = findViewById<ImageView>(R.id.pieza1)
         pieza1.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/storage/attachments/wrYjNteqCyrJTCQHwSuEyfjvsdSg72eiv9OHLy1x.pdf")))
+            pieza1.animate().apply {
+                duration = 1000
+                rotationBy(360f)
+            }.withEndAction {
+                startActivity(
+                    Intent(
+                        Intent.ACTION_VIEW,
+                        Uri.parse("https://turismo.teo.gal/storage/attachments/wrYjNteqCyrJTCQHwSuEyfjvsdSg72eiv9OHLy1x.pdf")
+                    )
+                )
+            }
         }
         val pieza2 = findViewById<ImageView>(R.id.pieza2)
         pieza2.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/storage/attachments/B11sNusewxkFNPCMQupINQrze8U7NGOfsF5YTnIE.pdf")))
+            pieza2.animate().apply {
+                duration = 1000
+                rotationBy(360f)
+            }.withEndAction {
+                startActivity(
+                    Intent(
+                        Intent.ACTION_VIEW,
+                        Uri.parse("https://turismo.teo.gal/storage/attachments/B11sNusewxkFNPCMQupINQrze8U7NGOfsF5YTnIE.pdf")
+                    )
+                )
+            }
         }
         val redeRutas = findViewById<ImageButton>(R.id.logoRedeRutas)
         redeRutas.setOnClickListener {
