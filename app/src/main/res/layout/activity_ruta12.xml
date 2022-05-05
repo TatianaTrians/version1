@@ -85,7 +85,7 @@
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="12dp"
                     android:fontFamily="sans-serif-black"
-                    android:text="12"
+                    android:text="@string/numero12"
                     android:textColor="#402D652F"
                     android:textSize="70sp" />
 
@@ -95,7 +95,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="-15dp"
-                    android:text="Ruta Camiño da Geira dos arrieiros"
+                    android:text="@string/rutaCamiñoGeira"
                     android:textColor="#415419"
                     android:textSize="20sp" />
             </LinearLayout>
@@ -124,7 +124,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="25dp"
-                android:text="Distancia"
+                android:text="@string/distancia"
                 android:textColor="#8A8585"
                 android:textSize="14sp" />
 
@@ -133,7 +133,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="14,27km"
+                android:text="@string/kmRuta12"
                 android:textColor="#000000" />
             <TextView
                 android:id="@+id/desnivel1"
@@ -141,7 +141,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="10dp"
-                android:text="Desnivel"
+                android:text="@string/desnivel"
                 android:textColor="#8A8585"
                 android:textSize="14sp" />
 
@@ -150,7 +150,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="⇑ 421m  ⇓ 141m"
+                android:text="@string/desnivelRuta12"
                 android:textColor="#000000" />
             <TextView
                 android:id="@+id/circular1"
@@ -158,7 +158,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="10dp"
-                android:text="Ruta Circular"
+                android:text="@string/rutaCircular"
                 android:textColor="#8A8585"
                 android:textSize="14sp" />
 
@@ -167,7 +167,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="Non"
+                android:text="@string/no"
                 android:textColor="#000000" />
             <TextView
                 android:id="@+id/dificultad"
@@ -175,7 +175,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="10dp"
-                android:text="Dificultad"
+                android:text="@string/dificultad"
                 android:textColor="#8A8585"
                 android:textSize="14sp" />
 
@@ -184,7 +184,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="Moderada"
+                android:text="@string/moderada"
                 android:textColor="#000000" />
             <TextView
                 android:id="@+id/sinalizacion1"
@@ -192,7 +192,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="10dp"
-                android:text="Sinalización"
+                android:text="@string/señalizacion"
                 android:textColor="#8A8585"
                 android:textSize="14sp" />
 
@@ -201,7 +201,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="Sí"
+                android:text="@string/si"
                 android:textColor="#000000" />
 
             <TextView
@@ -210,7 +210,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="10dp"
-                android:text="Inicio de la ruta"
+                android:text="@string/inicioRuta"
                 android:textColor="#8A8585"
                 android:textSize="14sp" />
 
@@ -219,16 +219,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="Coordenadas GPS:"
+                android:text="@string/coordenadaRuta12"
                 android:textColor="#000000" />
 
-            <TextView
-                android:id="@+id/coordenadas1.1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="30dp"
-                android:text="42.75955044926445, -8.548587098277645"
-                android:textColor="#000000" />
 
         </LinearLayout>
 
@@ -251,7 +244,7 @@
                 android:layout_height="48dp"
                 android:layout_marginLeft="220dp"
                 android:backgroundTint="#F9FBF9"
-                android:text="Ruta en Wikiloc"
+                android:text="@string/textoBotonWikiloc"
                 android:textColor="#415419"
                 android:textSize="12sp"
                 android:transformPivotX="@dimen/cardview_compat_inset_shadow"
@@ -272,11 +265,7 @@
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="25dp"
                 android:layout_marginTop="25dp"
-                android:text="Camiño Xacobeo que une Braga con Compostela, empregado tradicionalmente tamén polos arrieiros para traer o viño dende a Ribeira Sacra a Compostela.
-                \n \nO último tramo deste camiño xacobeo que parte de Braga cara Compostela atravesa o noso concello de Sur a Norte, entrando por Pontevea e percorrendo 14 km de diversas parroquias ata a ermida de San Sadurniño, en Montouto, hoxe en día desaparecida, a cal era o miradoiro natural onde as persoas peregrinas albiscaban por primeira vez as torres da catedral. A ruta atravesa igrexas de orixe medieval como a de San Cristovo de Reis ou a de San Simón de Cacheiras.
-                \n \nOs documentos do s. XVII ao s. XX testemuñan con posterioridade o paso dos arrieiros polos sitios do Cruceiro (actual Pontevea), Chao do Río, A Florida, A Ponte Nova, A Lagoa (A Ramallosa), etc.
-                \n \nUn camiño histórico que atravesa aldeas tradicionais ben conservadas (A Pedra, O Sisto, Pedrouso) e espazos naturais de grande beleza como a fraga de Sestelo. A ruta transcorre a rentes de numerosos bens culturais e etnolóxicos.
-                \n \nOs peregrinos que escollan este itinerario gozarán dun percorrido variado e entretido, seguro (afastado das vías principais e do tránsito) e con zonas para o descanso con numerosas fontes para repoñer forzas antes de entrar en Compostela. "
+                android:text="@string/textoRuta12"
                 android:textColor="#000000"
                 android:textSize="14sp" />
 

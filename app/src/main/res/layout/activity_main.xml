@@ -65,7 +65,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="REDE DE RUTAS"
+                android:text="@string/redeRutas"
                 android:textColor="#415419"
                 android:textSize="24sp"
                 android:textStyle="bold" />
@@ -75,12 +75,11 @@
                 android:layout_width="100dp"
                 android:layout_height="80dp"
                 android:layout_gravity="center"
-                android:background="#00FFFFFF"
                 android:contentDescription="logoTeo2"
                 android:scaleType="fitXY"
-                android:foreground="?android:attr/selectableItemBackground"
-                android:theme="@android:style/ThemeOverlay.Material.Dark"
-                app:srcCompat="@drawable/logorutas" />
+                app:srcCompat="@drawable/logorutas"
+                android:background="@drawable/selector"
+                />
 
             <ImageButton
                 android:id="@+id/boton1"

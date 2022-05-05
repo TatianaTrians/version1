@@ -15,7 +15,11 @@ class Ruta8 : AppCompatActivity() {
 
         val boton = findViewById<Button>(R.id.wikiloc)
         boton.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://es.wikiloc.com/rutas-senderismo/ruta-das-muineiras-59393246#lb-embed")))
+            val viewIntent = Intent(Intent.ACTION_VIEW,
+
+                Uri.parse("https://es.wikiloc.com/rutas-con-cochecito/ruta-do-apego-pontevea-burga-de-xermeade-56821272"))
+
+            if (viewIntent.resolveActivity(packageManager) != null) { startActivity(viewIntent) }
         }
         val pieza1 = findViewById<ImageView>(R.id.pieza1)
         pieza1.setOnClickListener {
@@ -23,51 +27,74 @@ class Ruta8 : AppCompatActivity() {
                 duration = 1000
                 rotationBy(360f)
             }.withEndAction {
-                startActivity(
-                    Intent(
-                        Intent.ACTION_VIEW,
-                        Uri.parse("https://turismo.teo.gal/storage/attachments/wrYjNteqCyrJTCQHwSuEyfjvsdSg72eiv9OHLy1x.pdf")
-                    )
-                )
+                val viewIntent = Intent(Intent.ACTION_VIEW,
+
+                    Uri.parse(" https://turismo.teo.gal/storage/attachments/wrYjNteqCyrJTCQHwSuEyfjvsdSg72eiv9OHLy1x.pdf"))
+
+                if (viewIntent.resolveActivity(packageManager) != null) { startActivity(viewIntent) }
             }
         }
+
         val pieza2 = findViewById<ImageView>(R.id.pieza2)
         pieza2.setOnClickListener {
             pieza2.animate().apply {
                 duration = 1000
                 rotationBy(360f)
             }.withEndAction {
-                startActivity(
-                    Intent(
-                        Intent.ACTION_VIEW,
-                        Uri.parse("https://turismo.teo.gal/storage/attachments/B11sNusewxkFNPCMQupINQrze8U7NGOfsF5YTnIE.pdf")
-                    )
-                )
+                    val viewIntent = Intent(Intent.ACTION_VIEW,
+
+                    Uri.parse("https://turismo.teo.gal/storage/attachments/B11sNusewxkFNPCMQupINQrze8U7NGOfsF5YTnIE.pdf"))
+
+                if (viewIntent.resolveActivity(packageManager) != null) { startActivity(viewIntent) }
             }
         }
         val redeRutas = findViewById<ImageButton>(R.id.logoRedeRutas)
         redeRutas.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/storage/attachments/50aGWdgYuYtFhm3AeipFktHw42vhrx3uMfAmykpF.pdf")))
+            val viewIntent = Intent(Intent.ACTION_VIEW,
+
+                Uri.parse("https://turismo.teo.gal/storage/attachments/50aGWdgYuYtFhm3AeipFktHw42vhrx3uMfAmykpF.pdf"))
+
+            if (viewIntent.resolveActivity(packageManager) != null) { startActivity(viewIntent) }
         }
         val facebook = findViewById<ImageButton>(R.id.facebook)
         facebook.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://es-es.facebook.com/turismoteo/")))
+            val viewIntent = Intent(Intent.ACTION_VIEW,
+
+                Uri.parse("https://es-es.facebook.com/turismoteo/"))
+
+            if (viewIntent.resolveActivity(packageManager) != null) { startActivity(viewIntent) }
         }
         val twitter = findViewById<ImageButton>(R.id.twitter)
         twitter.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://twitter.com/turismoteo")))
+            val viewIntent = Intent(Intent.ACTION_VIEW,
+
+                Uri.parse("https://twitter.com/turismoteo"))
+
+            if (viewIntent.resolveActivity(packageManager) != null) { startActivity(viewIntent) }
         }
         val instagram = findViewById<ImageButton>(R.id.instagram)
         instagram.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.instagram.com/accounts/login/?next=/turismoteo/")))
+            val viewIntent = Intent(Intent.ACTION_VIEW,
+
+                Uri.parse("https://www.instagram.com/accounts/login/?next=/turismoteo/"))
+
+            if (viewIntent.resolveActivity(packageManager) != null) { startActivity(viewIntent) }
         }
         val wikiloc = findViewById<ImageButton>(R.id.wikiloc1)
         wikiloc.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://es.wikiloc.com/wikiloc/user.do?id=6776439")))
+            val viewIntent = Intent(Intent.ACTION_VIEW,
+
+                Uri.parse("https://es.wikiloc.com/wikiloc/user.do?id=6776439"))
+
+            if (viewIntent.resolveActivity(packageManager) != null) { startActivity(viewIntent) }
         }
         val info = findViewById<ImageButton>(R.id.info)
         info.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/es/oficina-de-turismo")))
+            val viewIntent = Intent(Intent.ACTION_VIEW,
+
+                Uri.parse("https://turismo.teo.gal/es/oficina-de-turismo"))
+
+            if (viewIntent.resolveActivity(packageManager) != null) { startActivity(viewIntent) }
         }
     }
 }
