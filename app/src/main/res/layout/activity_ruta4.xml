@@ -22,7 +22,9 @@
             android:backgroundTint="#00FFFFFF"
             android:contentDescription="logoConcello"
             android:scaleType="fitXY"
-            app:srcCompat="@mipmap/logo" />
+            android:foreground="?android:attr/selectableItemBackground"
+            android:theme="@android:style/ThemeOverlay.Material.Dark"
+            app:srcCompat="@drawable/logo" />
 
         <ImageButton
             android:id="@+id/menu"
@@ -35,6 +37,8 @@
             android:contentDescription="menu hamburguesa"
             android:scaleType="fitXY"
             app:srcCompat="@drawable/hamburguesa"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:theme="@android:style/ThemeOverlay.Material.Dark"
             tools:ignore="TouchTargetSizeCheck" />
     </LinearLayout>
 
@@ -65,6 +69,8 @@
                 android:backgroundTint="#00FFFFFF"
                 android:contentDescription="logo rede de rutas"
                 android:scaleType="fitXY"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"
                 app:srcCompat="@drawable/logorutas" />
 
             <LinearLayout
@@ -235,16 +241,16 @@
                 android:text="Ollo ao piollo muiñeiras \n(dificultade alta)"
                 android:textColor="#000000" />
 
-            <ImageButton
+            <ImageView
                 android:id="@+id/pieza1"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginLeft="30dp"
-                android:backgroundTint="#00FFFFFF"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
                 android:contentDescription="Ollo ao piollo muiñeiras (dificultade alta)"
                 android:scaleType="fitXY"
-                app:srcCompat="@mipmap/pieza"
-                app:tint="#7F000000"/>
+                app:srcCompat="@drawable/pieza"/>
 
             <TextView
                 android:id="@+id/pdf2"
@@ -254,16 +260,16 @@
                 android:text="Ollo ao piollo muiñeiras \n(dificultade baixa)"
                 android:textColor="#000000" />
 
-            <ImageButton
+            <ImageView
                 android:id="@+id/pieza2"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginLeft="30dp"
-                android:backgroundTint="#00FFFFFF"
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
                 android:contentDescription="Ollo ao piollo muiñeiras (dificultade baixa)"
                 android:scaleType="fitXY"
-                app:srcCompat="@mipmap/pieza"
-                app:tint="#7F000000"/>
+                app:srcCompat="@drawable/pieza"/>
 
         </LinearLayout>
 
@@ -282,11 +288,14 @@
                 android:id="@+id/wikiloc"
                 android:layout_width="130dp"
                 android:layout_height="48dp"
-                android:layout_marginLeft="230dp"
+                android:layout_marginLeft="220dp"
                 android:backgroundTint="#F9FBF9"
                 android:text="Ruta en Wikiloc"
                 android:textColor="#415419"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:transformPivotX="@dimen/cardview_compat_inset_shadow"
+                app:rippleColor="#415419"
+                app:strokeColor="#415419"/>
 
             <ImageView
                 android:id="@+id/ruta4"
@@ -294,7 +303,7 @@
                 android:layout_height="250dp"
                 android:layout_marginLeft="3dp"
                 android:scaleType="fitXY"
-                app:srcCompat="@mipmap/botonruta4" />
+                app:srcCompat="@mipmap/ruta4" />
 
             <TextView
                 android:id="@+id/texto1"
@@ -335,7 +344,9 @@
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="facebook"
                     android:scaleType="fitXY"
-                    app:srcCompat="@mipmap/facebook"
+                    app:srcCompat="@drawable/facebook"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:tint="#7F000000" />
 
                 <ImageButton
@@ -348,7 +359,9 @@
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="twitter"
                     android:scaleType="fitXY"
-                    app:srcCompat="@mipmap/twitter"
+                    app:srcCompat="@drawable/twitter"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:tint="#7F000000" />
 
                 <ImageButton
@@ -361,7 +374,9 @@
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="instagram"
                     android:scaleType="fitXY"
-                    app:srcCompat="@mipmap/instagram"
+                    app:srcCompat="@drawable/instagram"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:tint="#7F000000" />
 
                 <ImageButton
@@ -374,7 +389,9 @@
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="wikiloc"
                     android:scaleType="fitXY"
-                    app:srcCompat="@mipmap/wikilok"
+                    app:srcCompat="@drawable/wikiloc"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:tint="#7F000000" />
 
                 <ImageButton
@@ -387,9 +404,13 @@
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="información"
                     android:scaleType="fitXY"
-                    app:srcCompat="@drawable/logoinformacion"
+                    app:srcCompat="@drawable/info"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:tint="#7F000000" />
             </LinearLayout>
+
+
         </LinearLayout>
     </ScrollView>
 

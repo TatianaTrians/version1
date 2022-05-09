@@ -22,7 +22,9 @@
             android:backgroundTint="#00FFFFFF"
             android:contentDescription="logoConcello"
             android:scaleType="fitXY"
-            app:srcCompat="@mipmap/logo" />
+            app:srcCompat="@drawable/logo"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:theme="@android:style/ThemeOverlay.Material.Dark"/>
 
         <ImageButton
             android:id="@+id/menu"
@@ -35,6 +37,8 @@
             android:contentDescription="menu hamburguesa"
             android:scaleType="fitXY"
             app:srcCompat="@drawable/hamburguesa"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:theme="@android:style/ThemeOverlay.Material.Dark"
             tools:ignore="TouchTargetSizeCheck" />
     </LinearLayout>
 
@@ -65,7 +69,9 @@
                 android:backgroundTint="#00FFFFFF"
                 android:contentDescription="logo rede de rutas"
                 android:scaleType="fitXY"
-                app:srcCompat="@drawable/logorutas" />
+                app:srcCompat="@drawable/logorutas"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:theme="@android:style/ThemeOverlay.Material.Dark"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -236,11 +242,14 @@
                 android:id="@+id/wikiloc"
                 android:layout_width="130dp"
                 android:layout_height="48dp"
-                android:layout_marginLeft="230dp"
+                android:layout_marginLeft="220dp"
                 android:backgroundTint="#F9FBF9"
                 android:text="Ruta en Wikiloc"
                 android:textColor="#415419"
-                android:textSize="12sp" />
+                android:textSize="12sp"
+                android:transformPivotX="@dimen/cardview_compat_inset_shadow"
+                app:rippleColor="#415419"
+                app:strokeColor="#415419"/>
 
             <ImageView
                 android:id="@+id/foto1"
@@ -248,7 +257,7 @@
                 android:layout_height="250dp"
                 android:layout_marginLeft="3dp"
                 android:scaleType="fitXY"
-                app:srcCompat="@mipmap/foto7" />
+                app:srcCompat="@mipmap/ruta7" />
 
             <TextView
                 android:id="@+id/texto1"
@@ -287,7 +296,9 @@
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="facebook"
                     android:scaleType="fitXY"
-                    app:srcCompat="@mipmap/facebook"
+                    app:srcCompat="@drawable/facebook"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:tint="#7F000000" />
 
                 <ImageButton
@@ -300,7 +311,9 @@
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="twitter"
                     android:scaleType="fitXY"
-                    app:srcCompat="@mipmap/twitter"
+                    app:srcCompat="@drawable/twitter"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:tint="#7F000000" />
 
                 <ImageButton
@@ -313,7 +326,9 @@
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="instagram"
                     android:scaleType="fitXY"
-                    app:srcCompat="@mipmap/instagram"
+                    app:srcCompat="@drawable/instagram"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:tint="#7F000000" />
 
                 <ImageButton
@@ -326,7 +341,9 @@
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="wikiloc"
                     android:scaleType="fitXY"
-                    app:srcCompat="@mipmap/wikilok"
+                    app:srcCompat="@drawable/wikiloc"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:tint="#7F000000" />
 
                 <ImageButton
@@ -339,7 +356,9 @@
                     android:backgroundTint="#00B8AEAE"
                     android:contentDescription="información"
                     android:scaleType="fitXY"
-                    app:srcCompat="@drawable/logoinformacion"
+                    app:srcCompat="@drawable/info"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:theme="@android:style/ThemeOverlay.Material.Dark"
                     app:tint="#7F000000" />
             </LinearLayout>
         </LinearLayout>

@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
+import android.widget.ImageView
 
 class Ruta8 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,13 +17,33 @@ class Ruta8 : AppCompatActivity() {
         boton.setOnClickListener {
             startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://es.wikiloc.com/rutas-senderismo/ruta-das-muineiras-59393246#lb-embed")))
         }
-        val pieza1 = findViewById<ImageButton>(R.id.pieza1)
+        val pieza1 = findViewById<ImageView>(R.id.pieza1)
         pieza1.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/storage/attachments/wrYjNteqCyrJTCQHwSuEyfjvsdSg72eiv9OHLy1x.pdf")))
+            pieza1.animate().apply {
+                duration = 1000
+                rotationBy(360f)
+            }.withEndAction {
+                startActivity(
+                    Intent(
+                        Intent.ACTION_VIEW,
+                        Uri.parse("https://turismo.teo.gal/storage/attachments/wrYjNteqCyrJTCQHwSuEyfjvsdSg72eiv9OHLy1x.pdf")
+                    )
+                )
+            }
         }
-        val pieza2 = findViewById<ImageButton>(R.id.pieza2)
+        val pieza2 = findViewById<ImageView>(R.id.pieza2)
         pieza2.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/storage/attachments/B11sNusewxkFNPCMQupINQrze8U7NGOfsF5YTnIE.pdf")))
+            pieza2.animate().apply {
+                duration = 1000
+                rotationBy(360f)
+            }.withEndAction {
+                startActivity(
+                    Intent(
+                        Intent.ACTION_VIEW,
+                        Uri.parse("https://turismo.teo.gal/storage/attachments/B11sNusewxkFNPCMQupINQrze8U7NGOfsF5YTnIE.pdf")
+                    )
+                )
+            }
         }
         val redeRutas = findViewById<ImageButton>(R.id.logoRedeRutas)
         redeRutas.setOnClickListener {
