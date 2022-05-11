@@ -83,7 +83,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
                 android:fontFamily="sans-serif-black"
-                android:text="3"
+                android:text="@string/numero3"
                 android:textColor="#402D652F"
                 android:textSize="70sp" />
 
@@ -92,7 +92,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
-                    android:text="Ruta Da Batalla de Cacheiras"
+                    android:text="@string/rutaBatalla"
                     android:textColor="#415419"
                     android:textSize="20sp" />
             </LinearLayout>
@@ -121,7 +121,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="25dp"
-                android:text="Distancia"
+                android:text="@string/distancia"
                 android:textColor="#8A8585"
                 android:textSize="14sp" />
 
@@ -130,7 +130,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="8,71 km"
+                android:text="@string/kmRuta3"
                 android:textColor="#000000" />
 
             <TextView
@@ -139,7 +139,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="10dp"
-                android:text="Desnivel"
+                android:text="@string/desnivel"
                 android:textColor="#8A8585"
                 android:textSize="14sp" />
 
@@ -148,7 +148,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="⇑ 287m"
+                android:text="@string/desnivelruta3"
                 android:textColor="#000000" />
 
             <TextView
@@ -157,7 +157,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="10dp"
-                android:text="Ruta Circular"
+                android:text="@string/rutaCircular"
                 android:textColor="#8A8585"
                 android:textSize="14sp" />
 
@@ -166,7 +166,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="Non"
+                android:text="@string/no"
                 android:textColor="#000000" />
 
             <TextView
@@ -175,7 +175,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="10dp"
-                android:text="Dificultad"
+                android:text="@string/dificultad"
                 android:textColor="#8A8585"
                 android:textSize="14sp" />
 
@@ -184,7 +184,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="Moderada"
+                android:text="@string/moderada"
                 android:textColor="#000000" />
 
             <TextView
@@ -193,7 +193,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="10dp"
-                android:text="Sinalización"
+                android:text="@string/señalizacion"
                 android:textColor="#8A8585"
                 android:textSize="14sp" />
 
@@ -202,7 +202,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="Si. Inicio na rectoral de Bamonde"
+                android:text="@string/textoSinalizacion3"
                 android:textColor="#000000" />
 
             <TextView
@@ -211,7 +211,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="10dp"
-                android:text="Inicio da ruta"
+                android:text="@string/inicioRuta"
                 android:textColor="#8A8585"
                 android:textSize="14sp" />
 
@@ -220,7 +220,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="Coordenadas GPS: \n42.784053602488946, -8.511513559903454"
+                android:text="@string/coordenadaRuta3"
                 android:textColor="#000000" />
         </LinearLayout>
 
@@ -241,7 +241,7 @@
                 android:layout_height="48dp"
                 android:layout_marginLeft="220dp"
                 android:backgroundTint="#F9FBF9"
-                android:text="Ruta en Wikiloc"
+                android:text="@string/textoBotonWikiloc"
                 android:textColor="#415419"
                 android:textSize="12sp"
                 android:transformPivotX="@dimen/cardview_compat_inset_shadow"
@@ -263,9 +263,7 @@
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="25dp"
                 android:layout_marginRight="25dp"
-                android:text="Ruta da Batalla de Cacheiras que vén conmemorar os acontecementos sucedidos o 23 de abril de 1846.\n \nA ruta da Batalla de Cacheiras é un percorrido que vai dende Bamonde ao alto de Montouto e pretende ser unha réplica do camiño que fixeron algúns dos soldados do xeneral de La Concha que na noite do 23 de Abril de 1846 fixeron noite en Bamonde para enfrontarse ó exercito sublevado liderado polo xeneral Solís na afamada Batalla. Camiños cheos de historia, de cultura, de fermosas paisaxes e arquitectura popular que atravesan as parroquias de Bamonde, Oza e Cacheiras.
-            \n \nTrátase dunha ruta lineal que comeza ao pé da reitoral de Bamonde e remata no cumio de Montouto. Ao longo do percorrido destacan elementos patrimoniais como igrexas, cruceiros ou núcleos rurais tradicionais, pero tamén elementos naturais de gran beleza como o salto de auga do río Santa Lucía ao seu paso polo Recobio, así como o propio miradoiro de Montouto.
-            \n \nA ruta está perfectamente sinalizada (nos dous sentidos de paso) e conta tamén con sinaléctica para os elementos patrimoniais máis destacables no percorrido."
+                android:text="@string/textoRuta3"
                 android:textColor="#000000"
                 android:textSize="14sp" />
 

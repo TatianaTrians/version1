@@ -85,7 +85,7 @@
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="12dp"
                     android:fontFamily="sans-serif-black"
-                    android:text="9"
+                    android:text="@string/numero9"
                     android:textColor="#402D652F"
                     android:textSize="70sp" />
 
@@ -95,7 +95,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="-15dp"
-                    android:text="Ruta Ribeira do Ulla Xirimbao - Pontevea"
+                    android:text="@string/rutaXirimbao"
                     android:textColor="#415419"
                     android:textSize="20sp" />
             </LinearLayout>
@@ -124,7 +124,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="25dp"
-                android:text="Distancia"
+                android:text="@string/distancia"
                 android:textColor="#8A8585"
                 android:textSize="14sp" />
 
@@ -133,7 +133,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="2.84km"
+                android:text="@string/kmRuta9"
                 android:textColor="#000000" />
             <TextView
                 android:id="@+id/desnivel1"
@@ -141,7 +141,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="10dp"
-                android:text="Desnivel"
+                android:text="@string/desnivel"
                 android:textColor="#8A8585"
                 android:textSize="14sp" />
 
@@ -150,7 +150,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="⇑ 24m"
+                android:text="@string/desnivelRuta9"
                 android:textColor="#000000" />
 
             <TextView
@@ -159,7 +159,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="10dp"
-                android:text="Ruta Circular"
+                android:text="@string/rutaCircular"
                 android:textColor="#8A8585"
                 android:textSize="14sp" />
 
@@ -168,7 +168,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="Non"
+                android:text="@string/no"
                 android:textColor="#000000" />
             <TextView
                 android:id="@+id/dificultad"
@@ -176,7 +176,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="10dp"
-                android:text="Dificultad"
+                android:text="@string/dificultad"
                 android:textColor="#8A8585"
                 android:textSize="14sp" />
 
@@ -185,7 +185,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="Fácil"
+                android:text="@string/facil"
                 android:textColor="#000000" />
             <TextView
                 android:id="@+id/sinalizacion1"
@@ -193,7 +193,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="10dp"
-                android:text="Sinalización"
+                android:text="@string/señalizacion"
                 android:textColor="#8A8585"
                 android:textSize="14sp" />
 
@@ -202,7 +202,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="Si"
+                android:text="@string/si"
                 android:textColor="#000000" />
 
             <TextView
@@ -211,7 +211,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="10dp"
-                android:text="Inicio da ruta"
+                android:text="@string/inicioRuta"
                 android:textColor="#8A8585"
                 android:textSize="14sp" />
 
@@ -220,7 +220,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="Coordenadas GPS: \n42.747744749137745, -8.554853748127957"
+                android:text="@string/coordenadaRuta9"
                 android:textColor="#000000" />
 
         </LinearLayout>
@@ -243,7 +243,7 @@
                 android:layout_height="48dp"
                 android:layout_marginLeft="220dp"
                 android:backgroundTint="#F9FBF9"
-                android:text="Ruta en Wikiloc"
+                android:text="@string/textoBotonWikiloc"
                 android:textColor="#415419"
                 android:textSize="12sp"
                 android:transformPivotX="@dimen/cardview_compat_inset_shadow"
@@ -265,10 +265,7 @@
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="25dp"
                 android:layout_marginTop="25dp"
-                android:text="Ruta que percorre as beiras do río Ulla desde a Área Recreativa do Xirimbao ata a Ponte Medieval de Pontevea.
-                \n \nEsta ruta, que percorre un tradicional camiño de pescadoras, vai dende a Área Recreativa do Xirimbao ata a Ponte Medieval de Pontevea, todo iso á beira do río Ulla. Trátase dunha ruta lineal que tamén se pode facer no sentido contrario, con saída dende o núcleo de Pontevea. Toda a ruta atópase na área de protección Rede Natura 2000 recoñecida pola Unión Europea dada a súa xenuína biodiversidade.
-                \n \nO principal atractivo desta ruta é a comunidade ecolóxica que determina a presenza do río Ulla: un bosque de río ben conservado que dá acubillo a especies moi emblemáticas como a lontra. Tamén destaca a presenza de pesqueiras, na zona próxima ao Xirimbao, que son construcións tradicionais para a pesca da lamprea.
-                \n \nEsta ruta pódese continuar coa Ruta Apego á Burga de Xermeade e coa ruta que vai ata Agromaior para aquelas persoas que queiran un maior percorrido!"
+                android:text="@string/textoRuta9"
                 android:textColor="#000000"
                 android:textSize="14sp" />
 

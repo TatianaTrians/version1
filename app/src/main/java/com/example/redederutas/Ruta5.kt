@@ -14,7 +14,7 @@ class Ruta5 : AppCompatActivity() {
 
         val boton = findViewById<Button>(R.id.wikiloc)
         boton.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://es.wikiloc.com/rutas-senderismo/ruta-das-muineiras-59393246#lb-embed")))
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://es.wikiloc.com/rutas-senderismo/a-beira-do-angueira-59352433")))
         }
         val redeRutas = findViewById<ImageButton>(R.id.logoRedeRutas)
         redeRutas.setOnClickListener {

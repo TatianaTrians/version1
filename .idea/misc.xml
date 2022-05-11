@@ -3,12 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/RedeDeRutas/app/src/main/res/drawable/splash_background.xml" value="0.1" />
+        <entry key="..\:/RedeDeRutas/app/src/main/res/layout/activity_ruta2.xml" value="0.2536231884057971" />
+        <entry key="..\:/RedeDeRutas/app/src/main/res/layout/activity_ruta4.xml" value="0.11481481481481481" />
+        <entry key="..\:/RedeDeRutas/app/src/main/res/layout/activity_splash.xml" value="0.24094202898550723" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/RedeDeRutas/app/src/main/res/layout/activity_main.xml" value="0.20964860035735558" />
-        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/RedeDeRutas/app/src/main/res/layout/activity_ruta1.xml" value="0.35260416666666666" />
-        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/RedeDeRutas/app/src/main/res/layout/activity_ruta10.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/RedeDeRutas/app/src/main/res/layout/activity_ruta1.xml" value="0.33" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/RedeDeRutas/app/src/main/res/layout/activity_ruta10.xml" value="0.27170868347338933" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/RedeDeRutas/app/src/main/res/layout/activity_ruta11.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/RedeDeRutas/app/src/main/res/layout/activity_ruta12.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/RedeDeRutas/app/src/main/res/layout/activity_ruta2.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/RedeDeRutas/app/src/main/res/layout/activity_ruta2.xml" value="0.1" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/RedeDeRutas/app/src/main/res/layout/activity_ruta3.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/RedeDeRutas/app/src/main/res/layout/activity_ruta4.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/RedeDeRutas/app/src/main/res/layout/activity_ruta5.xml" value="0.25" />
@@ -18,6 +22,7 @@
         <entry key="..\:/Users/Obradoiro/AndroidStudioProjects/RedeDeRutas/app/src/main/res/layout/activity_ruta9.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Obradoiro/Desktop/RedeDeRutas/app/src/main/res/drawable/anifacebook.xml" value="0.2955" />
         <entry key="..\:/Users/Obradoiro/Desktop/RedeDeRutas/app/src/main/res/drawable/anipieza.xml" value="0.2955" />
+        <entry key="..\:/Users/Obradoiro/Desktop/RedeDeRutas/app/src/main/res/drawable/splash_background.xml" value="0.2955" />
         <entry key="..\:/Users/Obradoiro/Desktop/RedeDeRutas/app/src/main/res/layout/activity_main.xml" value="0.18597829275447345" />
         <entry key="..\:/Users/Obradoiro/Desktop/RedeDeRutas/app/src/main/res/layout/activity_ruta1.xml" value="0.33" />
         <entry key="..\:/Users/Obradoiro/Desktop/RedeDeRutas/app/src/main/res/layout/activity_ruta10.xml" value="0.33" />
@@ -31,6 +36,7 @@
         <entry key="..\:/Users/Obradoiro/Desktop/RedeDeRutas/app/src/main/res/layout/activity_ruta7.xml" value="0.296195652173913" />
         <entry key="..\:/Users/Obradoiro/Desktop/RedeDeRutas/app/src/main/res/layout/activity_ruta8.xml" value="0.1590909090909091" />
         <entry key="..\:/Users/Obradoiro/Desktop/RedeDeRutas/app/src/main/res/layout/activity_ruta9.xml" value="0.33" />
+        <entry key="..\:/Users/Obradoiro/Desktop/RedeDeRutas/app/src/main/res/layout/activity_splash.xml" value="0.296195652173913" />
       </map>
     </option>
   </component>

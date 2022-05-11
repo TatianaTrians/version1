@@ -85,7 +85,7 @@
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="12dp"
                     android:fontFamily="sans-serif-black"
-                    android:text="8"
+                    android:text="@string/numero8"
                     android:textColor="#402D652F"
                     android:textSize="70sp" />
 
@@ -95,7 +95,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="-15dp"
-                    android:text="Ruta Apego Pontevea Burga de Xermeade"
+                    android:text="@string/rutaApegoPontevea"
                     android:textColor="#415419"
                     android:textSize="20sp" />
             </LinearLayout>
@@ -124,7 +124,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="25dp"
-                android:text="Distancia"
+                android:text="@string/distancia"
                 android:textColor="#8A8585"
                 android:textSize="14sp" />
 
@@ -133,7 +133,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="0.76km"
+                android:text="@string/kmRuta8"
                 android:textColor="#000000" />
             <TextView
                 android:id="@+id/desnivel1"
@@ -141,7 +141,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="10dp"
-                android:text="Desnivel"
+                android:text="@string/desnivel"
                 android:textColor="#8A8585"
                 android:textSize="14sp" />
 
@@ -150,7 +150,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="⇑ 1m"
+                android:text="@string/desnivelRuta8"
                 android:textColor="#000000" />
 
             <TextView
@@ -159,7 +159,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="10dp"
-                android:text="Ruta Circular"
+                android:text="@string/rutaCircular"
                 android:textColor="#8A8585"
                 android:textSize="14sp" />
 
@@ -168,7 +168,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="Non"
+                android:text="@string/no"
                 android:textColor="#000000" />
             <TextView
                 android:id="@+id/dificultad"
@@ -176,7 +176,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="10dp"
-                android:text="Dificultad"
+                android:text="@string/dificultad"
                 android:textColor="#8A8585"
                 android:textSize="14sp" />
 
@@ -185,7 +185,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="Fácil"
+                android:text="@string/facil"
                 android:textColor="#000000" />
             <TextView
                 android:id="@+id/sinalizacion1"
@@ -193,7 +193,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="10dp"
-                android:text="Sinalización"
+                android:text="@string/señalizacion"
                 android:textColor="#8A8585"
                 android:textSize="14sp" />
 
@@ -202,7 +202,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="Si"
+                android:text="@string/si"
                 android:textColor="#000000" />
 
             <TextView
@@ -211,7 +211,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="10dp"
-                android:text="Inicio da ruta"
+                android:text="@string/inicioRuta"
                 android:textColor="#8A8585"
                 android:textSize="14sp" />
 
@@ -220,7 +220,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="Coordenadas GPS: \n42.759511970850866, -8.548239358912666"
+                android:text="@string/coordenadasRuta8"
                 android:textColor="#000000" />
 
             <TextView
@@ -229,7 +229,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="10dp"
-                android:text="Descarga"
+                android:text="@string/descarga"
                 android:textColor="#8A8585"
                 android:textSize="14sp" />
 
@@ -238,7 +238,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="Ollo ao piollo muiñeiras \n(dificultade alta)"
+                android:text="@string/juegoDificil"
                 android:textColor="#000000" />
 
             <ImageView
@@ -257,7 +257,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="Ollo ao piollo muiñeiras \n(dificultade baixa)"
+                android:text="@string/juegoFacil"
                 android:textColor="#000000" />
 
             <ImageView
@@ -290,7 +290,7 @@
                 android:layout_height="48dp"
                 android:layout_marginLeft="220dp"
                 android:backgroundTint="#F9FBF9"
-                android:text="Ruta en Wikiloc"
+                android:text="@string/textoBotonWikiloc"
                 android:textColor="#415419"
                 android:textSize="12sp"
                 android:transformPivotX="@dimen/cardview_compat_inset_shadow"
@@ -312,10 +312,7 @@
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="25dp"
                 android:layout_marginTop="25dp"
-                android:text="Ruta Apego moi adecuada para realizar en familia ás beiras do río Ulla e con chegada á Burga de Xermeade.
-                \n \nEntre o núcleo de Pontevea e a Burga de Xermeade discorre esta curtiña ruta lineal Apego á beira do río Ulla, declarada zona Rede Natura 2000 pola súa singular biodiversidade. Trátase dun bosque de río en bo estado de conservación que alberga todo un ecosistema fluvial, con insuas formadas de xeito natural e que remata na Burga de Xermeade, espazo moi singular pola presenza de augas sulfurosas.
-                \n \nAs rutas Apego están deseñadas para a facilidade de familias con crianzas e persoas con mobilidade reducida. Neste caso a ruta está dinamizada con postes de sinaléctica que conteñen audioguías con información sobre o río Ulla, especialmente pensada para a cativada. Non deixedes de escoitalas!
-                \n \nPara poñer en valor esta diversidade natural do espazo existen uns materiais para enriquecer e acompañar a visita, trátase duns materiais imprimibles cun xogo de busca chamado Ollo ao piollo! que se atopan en dous niveis de dificultade: para crianzas e para adultas. Imprime o teu e verás como cambia a experiencia!"
+                android:text="@string/textoRuta8"
                 android:textColor="#000000"
                 android:textSize="14sp" />
 
