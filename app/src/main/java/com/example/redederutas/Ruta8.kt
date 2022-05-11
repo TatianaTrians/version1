@@ -15,7 +15,7 @@ class Ruta8 : AppCompatActivity() {
 
         val boton = findViewById<Button>(R.id.wikiloc)
         boton.setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://es.wikiloc.com/rutas-senderismo/ruta-das-muineiras-59393246#lb-embed")))
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://es.wikiloc.com/rutas-con-cochecito/ruta-do-apego-pontevea-burga-de-xermeade-56821272")))
         }
         val pieza1 = findViewById<ImageView>(R.id.pieza1)
         pieza1.setOnClickListener {
@@ -23,26 +23,17 @@ class Ruta8 : AppCompatActivity() {
                 duration = 1000
                 rotationBy(360f)
             }.withEndAction {
-                startActivity(
-                    Intent(
-                        Intent.ACTION_VIEW,
-                        Uri.parse("https://turismo.teo.gal/storage/attachments/wrYjNteqCyrJTCQHwSuEyfjvsdSg72eiv9OHLy1x.pdf")
-                    )
-                )
+                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/storage/attachments/wrYjNteqCyrJTCQHwSuEyfjvsdSg72eiv9OHLy1x.pdf")))
             }
         }
+
         val pieza2 = findViewById<ImageView>(R.id.pieza2)
         pieza2.setOnClickListener {
             pieza2.animate().apply {
                 duration = 1000
                 rotationBy(360f)
             }.withEndAction {
-                startActivity(
-                    Intent(
-                        Intent.ACTION_VIEW,
-                        Uri.parse("https://turismo.teo.gal/storage/attachments/B11sNusewxkFNPCMQupINQrze8U7NGOfsF5YTnIE.pdf")
-                    )
-                )
+                startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://turismo.teo.gal/storage/attachments/B11sNusewxkFNPCMQupINQrze8U7NGOfsF5YTnIE.pdf")))
             }
         }
         val redeRutas = findViewById<ImageButton>(R.id.logoRedeRutas)

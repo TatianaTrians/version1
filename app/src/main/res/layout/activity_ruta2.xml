@@ -95,7 +95,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="15dp"
                     android:layout_marginTop="-15dp"
-                    android:text="Ruta Apego Creceiro de Francos - Ponte Paradela "
+                    android:text="@string/rutaApegoCreceiro"
                     android:textColor="#415419"
                     android:textSize="20sp" />
             </LinearLayout>
@@ -124,7 +124,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="25dp"
-                android:text="Distancia"
+                android:text="@string/distancia"
                 android:textColor="#8A8585"
                 android:textSize="14sp" />
 
@@ -133,7 +133,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="1,71 km"
+                android:text="@string/kmRuta2"
                 android:textColor="#000000" />
 
             <TextView
@@ -142,7 +142,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="10dp"
-                android:text="Desnivel"
+                android:text="@string/desnivel"
                 android:textColor="#8A8585"
                 android:textSize="14sp" />
 
@@ -151,7 +151,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="⇑ 23m"
+                android:text="@string/desnivelruta2"
                 android:textColor="#000000" />
 
             <TextView
@@ -160,7 +160,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="10dp"
-                android:text="Ruta Circular"
+                android:text="@string/rutaCircular"
                 android:textColor="#8A8585"
                 android:textSize="14sp" />
 
@@ -169,7 +169,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="Si"
+                android:text="@string/si"
                 android:textColor="#000000" />
 
             <TextView
@@ -178,7 +178,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="10dp"
-                android:text="Dificultad"
+                android:text="@string/dificultad"
                 android:textColor="#8A8585"
                 android:textSize="14sp" />
 
@@ -187,7 +187,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="Baixa"
+                android:text="@string/baja"
                 android:textColor="#000000" />
 
             <TextView
@@ -196,7 +196,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="10dp"
-                android:text="Sinalización"
+                android:text="@string/señalizacion"
                 android:textColor="#8A8585"
                 android:textSize="14sp" />
 
@@ -205,7 +205,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="Si. Inicio desde a Escola de Francos"
+                android:text="@string/textoSinalizacion2"
                 android:textColor="#000000" />
 
             <TextView
@@ -214,7 +214,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="10dp"
-                android:text="Inicio da ruta"
+                android:text="@string/inicioRuta"
                 android:textColor="#8A8585"
                 android:textSize="14sp" />
 
@@ -223,7 +223,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="Coordenadas GPS: \n42.75976908231386, -8.547355998657142"
+                android:text="@string/coordenadaRuta2"
                 android:textColor="#000000" />
         </LinearLayout>
 
@@ -245,7 +245,7 @@
                 android:layout_height="48dp"
                 android:layout_marginLeft="220dp"
                 android:backgroundTint="#F9FBF9"
-                android:text="Ruta en Wikiloc"
+                android:text="@string/textoBotonWikiloc"
                 android:textColor="#415419"
                 android:textSize="12sp"
                 android:transformPivotX="@dimen/cardview_compat_inset_shadow"
@@ -267,9 +267,7 @@
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="25dp"
                 android:layout_marginRight="25dp"
-                android:text="Ruta lineal que atravesa a Carballeira de Francos e discorre paralela ao río Tinto ata chegar á Ponte Paradela. \n \nCon saída dende o Cruceiro gótico de Francos, esta ruta atravesa lugares moi emblemáticos como a propia carballeira onde ten lugar a Feira do San Martiño. Deixa atrás a aldea de Francos para discorrer paralela ao río Tinto aproveitando unha pista forestal e chega finalmente a Ponte Paradela onde hai un merendoiro.
-            \n \nTrátase dunha ruta de ida e volta onde ademais dos elementos patrimoniais vinculados á aldea, como os muíños do último tramo, tamén podemos gozar do ecosistema de río, sobre todo as árbores e flores da ribeira.
-            \n \nAs rutas Apego son rutas pensadas e deseñadas para familias con crianzas e que poden portar carriños e por ende, son accesibles para persoas con mobilidade reducida tamén. Nalgunhas épocas de moita chuvia o último tramo pode presentar marcas de escorrenta que dificulten o paso."
+                android:text="@string/textoRuta2"
                 android:textColor="#000000"
                 android:textSize="14sp" />
 

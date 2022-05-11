@@ -84,7 +84,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
                     android:fontFamily="sans-serif-black"
-                    android:text="1"
+                    android:text="@string/numero1"
                     android:textColor="#402D652F"
                     android:textSize="70sp" />
 
@@ -93,7 +93,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
-                    android:text="Ruta Per Caminho de Lampai"
+                    android:text="@string/rutaPerCaminho"
                     android:textColor="#415419"
                     android:textSize="20sp" />
             </LinearLayout>
@@ -122,7 +122,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="30dp"
                         android:layout_marginTop="25dp"
-                        android:text="Distancia"
+                        android:text="@string/distancia"
                         android:textColor="#8A8585"
                         android:textSize="14sp" />
 
@@ -131,7 +131,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="30dp"
-                        android:text="1.38 km"
+                        android:text="@string/kmRuta1"
                         android:textColor="#000000" />
 
                     <TextView
@@ -140,7 +140,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="30dp"
                         android:layout_marginTop="10dp"
-                        android:text="Desnivel"
+                        android:text="@string/desnivel"
                         android:textColor="#8A8585"
                         android:textSize="14sp" />
 
@@ -149,7 +149,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="30dp"
-                        android:text="⇓ 81m"
+                        android:text="@string/desnivelruta1"
                         android:textColor="#000000" />
 
                     <TextView
@@ -158,7 +158,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="30dp"
                         android:layout_marginTop="10dp"
-                        android:text="Ruta Circular"
+                        android:text="@string/rutaCircular"
                         android:textColor="#8A8585"
                         android:textSize="14sp" />
 
@@ -167,7 +167,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="30dp"
-                        android:text="Non"
+                        android:text="@string/no"
                         android:textColor="#000000" />
 
                     <TextView
@@ -176,7 +176,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="30dp"
                         android:layout_marginTop="10dp"
-                        android:text="Dificultad"
+                        android:text="@string/dificultad"
                         android:textColor="#8A8585"
                         android:textSize="14sp" />
 
@@ -185,7 +185,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="30dp"
-                        android:text="Baixa"
+                        android:text="@string/baja"
                         android:textColor="#000000" />
 
                     <TextView
@@ -194,7 +194,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="30dp"
                         android:layout_marginTop="10dp"
-                        android:text="Sinalización"
+                        android:text="@string/señalizacion"
                         android:textColor="#8A8585"
                         android:textSize="14sp" />
 
@@ -203,7 +203,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="45dp"
                         android:layout_marginLeft="30dp"
-                        android:text="Non"
+                        android:text="@string/no"
                         android:textColor="#000000" />
                 </LinearLayout>
 
@@ -224,7 +224,7 @@
                 android:layout_height="48dp"
                 android:layout_marginLeft="220dp"
                 android:backgroundTint="#F9FBF9"
-                android:text="Ruta en Wikiloc"
+                android:text="@string/textoBotonWikiloc"
                 android:textColor="#415419"
                 android:textSize="12sp"
                 android:transformPivotX="@dimen/cardview_compat_inset_shadow"
@@ -246,8 +246,7 @@
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="25dp"
                 android:layout_marginRight="25dp"
-                android:text="Camiño tradicional que, partindo da capela de Santa Ana (Agrela), bordea a fonte da Grela (datada no 1868) e discorre fundamentalmente paralelo ao Rego do Tarrío. Actualmente consérvanse os restos de nove muíños, un deles con restos dunha antigo serradoiro. De grande beleza natural por atravesar un bosque de ribeira o máis destacable da ruta é a presenza do Marco Medieval tamén na beira do regato e que marca o linde entre os concellos de Teo e Padrón.
-            \n \nO nome da ruta extraémolo dun verso do trobador Compostelán Joán Airas nunha cantiga de amor onde amosa a súa desesperanza pola marcha da muller amada. A marcha era por un camiño medieval a Santiago que atravesaba o Concello de Teo de norte a Sur, subindo cara Lampai en dirección a Padrón. "
+                android:text="@string/textoRuta1"
                 android:textColor="#000000"
                 android:textSize="14sp" />
 

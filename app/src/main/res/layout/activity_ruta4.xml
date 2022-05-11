@@ -85,7 +85,7 @@
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="12dp"
                     android:fontFamily="sans-serif-black"
-                    android:text="4"
+                    android:text="@string/numero4"
                     android:textColor="#402D652F"
                     android:textSize="70sp" />
 
@@ -95,7 +95,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="-15dp"
-                    android:text="Ruta Apego das Muiñeiras de Luou"
+                    android:text="@string/rutaApegoMuiñeiras"
                     android:textColor="#415419"
                     android:textSize="20sp" />
             </LinearLayout>
@@ -124,7 +124,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="25dp"
-                android:text="Duración"
+                android:text="@string/duracion"
                 android:textColor="#8A8585"
                 android:textSize="14sp" />
 
@@ -133,7 +133,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="30 min"
+                android:text="@string/duracionRuta4"
                 android:textColor="#000000" />
             <TextView
                 android:id="@+id/desnivel1"
@@ -141,7 +141,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="10dp"
-                android:text="Desnivel"
+                android:text="@string/desnivel"
                 android:textColor="#8A8585"
                 android:textSize="14sp" />
 
@@ -150,7 +150,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="⇑ 30m"
+                android:text="@string/desnivelRuta4"
                 android:textColor="#000000" />
 
             <TextView
@@ -159,7 +159,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="10dp"
-                android:text="Ruta Circular"
+                android:text="@string/rutaCircular"
                 android:textColor="#8A8585"
                 android:textSize="14sp" />
 
@@ -168,7 +168,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="Non"
+                android:text="@string/no"
                 android:textColor="#000000" />
             <TextView
                 android:id="@+id/dificultad"
@@ -176,7 +176,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="10dp"
-                android:text="Dificultad"
+                android:text="@string/dificultad"
                 android:textColor="#8A8585"
                 android:textSize="14sp" />
 
@@ -185,7 +185,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="Fácil"
+                android:text="@string/facil"
                 android:textColor="#000000" />
             <TextView
                 android:id="@+id/sinalizacion1"
@@ -193,7 +193,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="10dp"
-                android:text="Sinalización"
+                android:text="@string/señalizacion"
                 android:textColor="#8A8585"
                 android:textSize="14sp" />
 
@@ -202,7 +202,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="Si"
+                android:text="@string/si"
                 android:textColor="#000000" />
 
             <TextView
@@ -211,7 +211,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="10dp"
-                android:text="Inicio da ruta"
+                android:text="@string/inicioRuta"
                 android:textColor="#8A8585"
                 android:textSize="14sp" />
 
@@ -220,7 +220,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="Coordenadas GPS: \n42.803393955393986, -8.583896633172326"
+                android:text="@string/coordenadaRuta4"
                 android:textColor="#000000" />
 
             <TextView
@@ -229,7 +229,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
                 android:layout_marginTop="10dp"
-                android:text="Descarga"
+                android:text="@string/descarga"
                 android:textColor="#8A8585"
                 android:textSize="14sp" />
 
@@ -238,7 +238,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="Ollo ao piollo muiñeiras \n(dificultade alta)"
+                android:text="@string/juegoDificil"
                 android:textColor="#000000" />
 
             <ImageView
@@ -257,7 +257,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30dp"
-                android:text="Ollo ao piollo muiñeiras \n(dificultade baixa)"
+                android:text="@string/juegoFacil"
                 android:textColor="#000000" />
 
             <ImageView
@@ -290,7 +290,7 @@
                 android:layout_height="48dp"
                 android:layout_marginLeft="220dp"
                 android:backgroundTint="#F9FBF9"
-                android:text="Ruta en Wikiloc"
+                android:text="@string/textoBotonWikiloc"
                 android:textColor="#415419"
                 android:textSize="12sp"
                 android:transformPivotX="@dimen/cardview_compat_inset_shadow"
@@ -312,10 +312,7 @@
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="25dp"
                 android:layout_marginTop="25dp"
-                android:text="Ruta lineal que discorre dende A Chanca ata A Ínsua, en Luou, perfectamente sinalizada é considerada ruta Apego.
-                \n \nO percorrido aproveita a obra levada a cabo para a colocación do colector de Espasande, conta con numerosos muíños onde tradicionalmente se facía a moenda. Podemos atopar na mesma o muíño e Pombal das Muiñeiras, o muíño do Inferniño, o muíño Novo, o muíño dos Cornidos, o muíño da Ínsua e o lavadoiro da Ínsua.
-                \n \nTrátase dun pequeno percorrido de ida e volta onde ademais dos elementos patrimoniais citados tamén podemos atopar un ecosistema fluvial con bosque de río en bo estado de conservación.
-                \n \nAs rutas Apego son rutas pensadas e deseñadas para familias con crianzas e que poden portar carriños e, por ende, son accesibles para persoas con mobilidade reducida tamén. Para motivar os paseos e desfrute da natureza temos deseñado un xogo, o Ollo ao Piollo, con dous niveis de dificultade (adultas e cativada) que se pode descargar a continuación e que consiste en ir atopando distintos elementos naturais á vez que paseas pola ruta."
+                android:text="@string/textoRuta4"
                 android:textColor="#000000"
                 android:textSize="14sp" />
 

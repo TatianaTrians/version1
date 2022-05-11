@@ -65,7 +65,7 @@
                     android:id="@+id/logoRedeRutas"
                     android:layout_width="100dp"
                     android:layout_height="80dp"
-                    android:layout_marginLeft="150dp"
+                    android:layout_marginLeft="120dp"
                     android:backgroundTint="#00FFFFFF"
                     android:contentDescription="logo rede de rutas"
                     android:scaleType="fitXY"
@@ -85,7 +85,7 @@
                         android:layout_marginLeft="5dp"
                         android:layout_marginTop="12dp"
                         android:fontFamily="sans-serif-black"
-                        android:text="10"
+                        android:text="@string/numero10"
                         android:textColor="#402D652F"
                         android:textSize="70sp" />
 
@@ -95,7 +95,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
                         android:layout_marginTop="-15dp"
-                        android:text="Ruta PR-G 238. Ruta dos Petróglifos de Teo "
+                        android:text="@string/rutaPetroglifo"
                         android:textColor="#415419"
                         android:textSize="20sp" />
                 </LinearLayout>
@@ -125,7 +125,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
                     android:layout_marginTop="25dp"
-                    android:text="Duración"
+                    android:text="@string/distancia"
                     android:textColor="#8A8585"
                     android:textSize="14sp" />
 
@@ -134,7 +134,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
-                    android:text="11,87 km"
+                    android:text="@string/kmRuta10"
                     android:textColor="#000000" />
                 <TextView
                     android:id="@+id/desnivel1"
@@ -142,7 +142,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
                     android:layout_marginTop="10dp"
-                    android:text="Desnivel"
+                    android:text="@string/desnivel"
                     android:textColor="#8A8585"
                     android:textSize="14sp" />
 
@@ -151,7 +151,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
-                    android:text="⇑220m"
+                    android:text="@string/desnivelRuta10"
                     android:textColor="#000000" />
                 <TextView
                     android:id="@+id/circular1"
@@ -159,7 +159,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
                     android:layout_marginTop="10dp"
-                    android:text="Ruta Circular"
+                    android:text="@string/rutaCircular"
                     android:textColor="#8A8585"
                     android:textSize="14sp" />
 
@@ -168,7 +168,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
-                    android:text="Sí"
+                    android:text="@string/si"
                     android:textColor="#000000" />
                 <TextView
                     android:id="@+id/dificultad"
@@ -176,7 +176,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
                     android:layout_marginTop="10dp"
-                    android:text="Dificultad"
+                    android:text="@string/dificultad"
                     android:textColor="#8A8585"
                     android:textSize="14sp" />
 
@@ -185,7 +185,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
-                    android:text="Moderada"
+                    android:text="@string/moderada"
                     android:textColor="#000000" />
                 <TextView
                     android:id="@+id/sinalizacion1"
@@ -193,7 +193,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
                     android:layout_marginTop="10dp"
-                    android:text="Sinalización"
+                    android:text="@string/señalizacion"
                     android:textColor="#8A8585"
                     android:textSize="14sp" />
 
@@ -202,7 +202,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
-                    android:text="Sí"
+                    android:text="@string/si"
                     android:textColor="#000000" />
 
                 <TextView
@@ -211,7 +211,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
                     android:layout_marginTop="10dp"
-                    android:text="Inicio de la ruta"
+                    android:text="@string/inicioRuta"
                     android:textColor="#8A8585"
                     android:textSize="14sp" />
 
@@ -220,16 +220,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
-                    android:text="Coordenadas GPS:"
+                    android:text="@string/coordenadaRuta10"
                     android:textColor="#000000" />
 
-                <TextView
-                    android:id="@+id/coordenadas1.1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:text="42.8064491767152, -8.600935758055126932"
-                    android:textColor="#000000" />
 
             </LinearLayout>
 
@@ -251,7 +244,7 @@
                     android:layout_height="48dp"
                     android:layout_marginLeft="220dp"
                     android:backgroundTint="#F9FBF9"
-                    android:text="Ruta en Wikiloc"
+                    android:text="@string/textoBotonWikiloc"
                     android:textColor="#415419"
                     android:textSize="12sp"
                     android:transformPivotX="@dimen/cardview_compat_inset_shadow"
@@ -272,11 +265,7 @@
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="25dp"
                     android:layout_marginTop="25dp"
-                    android:text="Un percorrido para visitar os petrólifos de Río Angueira e Monte Piquiño.
-                \n \nPartindo da Capela dos Milagres de Cornide, o percorrido desta ruta adéntrase nun espazo físico de pequenos outeiros graníticos e lenes chairas á beira do río Angureia, ocupadas por gran cantidade de restos arqueolóxicos.
-                \n \nEste sitio arqueolóxico representa unha das áreas de maior importancia en Galicia, e sen igual na Comarca de Compostela, pola gran densidade de xacementos de mámoas e petróglifos existentes e polas características dalgúns deses gravados.
-                \n \nSon moi relevantes os petróglifos de Río Angueira ou de Monte de Cornide, cun conxunto de escenas de monta, unha delas sobre un cervo; o petróglifo do Corno I, de gran importancia e recoñecemento na comunidade galega, que amosa na súa parte central un motivo cuadrangular segmentado acompañado dunha daga; e tamén os petróglifos de Pedra Bicuda de Loureiro que presentan numerosos gravados xeométricos de gran porte (combinacións circulares e espirais) e figurativos (cervos e cánidos).
-                \n \nTotalmente sinalizada e interpretada, con esta ruta queremos amosar un dos tesouros do noso Concello."
+                    android:text="@string/textoRuta10"
                     android:textColor="#000000"
                     android:textSize="14sp" />
 

@@ -85,7 +85,7 @@
                         android:layout_marginLeft="5dp"
                         android:layout_marginTop="12dp"
                         android:fontFamily="sans-serif-black"
-                        android:text="11"
+                        android:text="@string/numero11"
                         android:textColor="#402D652F"
                         android:textSize="70sp" />
 
@@ -95,7 +95,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
                         android:layout_marginTop="-15dp"
-                        android:text="Ruta Camiño de Santiago Portugués (tramo teense)"
+                        android:text="@string/rutaCamiñoSantiago"
                         android:textColor="#415419"
                         android:textSize="20sp" />
                 </LinearLayout>
@@ -125,7 +125,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
                     android:layout_marginTop="25dp"
-                    android:text="Distancia"
+                    android:text="@string/distancia"
                     android:textColor="#8A8585"
                     android:textSize="14sp" />
 
@@ -134,7 +134,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
-                    android:text="-"
+                    android:text="@string/vacio"
                     android:textColor="#000000" />
                 <TextView
                     android:id="@+id/desnivel1"
@@ -142,7 +142,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
                     android:layout_marginTop="10dp"
-                    android:text="Desnivel"
+                    android:text="@string/desnivel"
                     android:textColor="#8A8585"
                     android:textSize="14sp" />
 
@@ -151,7 +151,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
-                    android:text="-"
+                    android:text="@string/vacio"
                     android:textColor="#000000" />
                 <TextView
                     android:id="@+id/circular1"
@@ -159,7 +159,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
                     android:layout_marginTop="10dp"
-                    android:text="Ruta Circular"
+                    android:text="@string/rutaCircular"
                     android:textColor="#8A8585"
                     android:textSize="14sp" />
 
@@ -168,7 +168,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
-                    android:text="Non"
+                    android:text="@string/no"
                     android:textColor="#000000" />
                 <TextView
                     android:id="@+id/dificultad"
@@ -176,7 +176,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
                     android:layout_marginTop="10dp"
-                    android:text="Dificultad"
+                    android:text="@string/dificultad"
                     android:textColor="#8A8585"
                     android:textSize="14sp" />
 
@@ -185,7 +185,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
-                    android:text="-"
+                    android:text="@string/vacio"
                     android:textColor="#000000" />
                 <TextView
                     android:id="@+id/sinalizacion1"
@@ -193,7 +193,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
                     android:layout_marginTop="10dp"
-                    android:text="Sinalización"
+                    android:text="@string/señalizacion"
                     android:textColor="#8A8585"
                     android:textSize="14sp" />
 
@@ -202,7 +202,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
-                    android:text="-"
+                    android:text="@string/vacio"
                     android:textColor="#000000" />
 
                 <TextView
@@ -211,7 +211,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
                     android:layout_marginTop="10dp"
-                    android:text="Inicio de la ruta"
+                    android:text="@string/inicioRuta"
                     android:textColor="#8A8585"
                     android:textSize="14sp" />
 
@@ -220,16 +220,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
-                    android:text="Coordenadas GPS:"
+                    android:text="@string/coordenadaRuta11"
                     android:textColor="#000000" />
 
-                <TextView
-                    android:id="@+id/coordenadas1.1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:text="42.814019188168764, -8.62254239437164"
-                    android:textColor="#000000" />
 
         </LinearLayout>
 
@@ -251,7 +244,7 @@
                     android:layout_height="48dp"
                     android:layout_marginLeft="220dp"
                     android:backgroundTint="#F9FBF9"
-                    android:text="Ruta en Wikiloc"
+                    android:text="@string/textoBotonWikiloc"
                     android:textColor="#415419"
                     android:textSize="12sp"
                     android:transformPivotX="@dimen/cardview_compat_inset_shadow"
@@ -272,11 +265,7 @@
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="25dp"
                     android:layout_marginTop="25dp"
-                    android:text="Trátase dun percorrido de case 8 km onde o Itinerario Cultural Xacobeo atravesa o noso concello.
-                \n \nDe entre as vías de peregrinación xacobeas tradicionais a Compostela unha das máis afamadas é o coñecido como Camiño de Santiago Portugués, con inicio en Lisboa, aínda que na actualidade os principais portos de partida son Porto e Tui.
-                \n \nXa case no último tramo, o percorrido entra no concello en Francos, na parroquia de Calo e atravesa núcleos importantes como a rúa de Francos, Osebe, A Casalonga, A Pedreira… para saír do noso territorio polas Galanas, xa próximo ao veciño núcleo do Milladoiro. Ao inicio do percorrido está o albergue de peregrinos.
-                \n \nNeste traxecto atopamos elementos patrimoniais moi relevantes como lavadoiros, fontes e cruceiros, destacando o Cruceiro de Francos, o máis antigo do concello. Atravesa tamén a Carballeira de Francos, lugar onde se realiza cada 11 de novembro a Feira do San Martiño, de gran relevancia turística e cultural para a comarca.
-                \n \nA ruta atópase sinalizada e conta con sinais interpretativos."
+                    android:text="@string/textoRuta11"
                     android:textColor="#000000"
                     android:textSize="14sp" />
 
